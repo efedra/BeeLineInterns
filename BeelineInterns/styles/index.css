@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.font-normal{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 10px;
+}
+.base-background{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.1) 100%), #2B2C3A;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.left-bar{
+    height: 100vh;
+    background: rgba(156, 165, 236, 0.04);
+    min-height: 1100px;
+}
+
+.main-container{
+    flex:1 1 auto;
+}
+
+
+
+
+

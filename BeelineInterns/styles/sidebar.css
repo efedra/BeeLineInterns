@@ -1,0 +1,48 @@
+.sidebar-list {
+    border-top: 1px solid #474856;
+    border-bottom: 1px solid #474856;
+    mix-blend-mode: normal;
+}
+
+
+.list div {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+
+.list div:first-child {
+    margin-top: 30px;
+}
+
+.open-list {
+
+}
+
+.sub-menu {
+    display: none;
+    list-style: none;
+    color: white;
+    opacity: 0.6;
+}
+
+.open-list:focus ~ div .sub-menu,
+.open-list:active ~ div .sub-menu,
+.sub-menu:hover {
+    display: block;
+}
+
+.sub-menu li{
+    padding-top: 15px;
+
+}
+
+.sub-menu li:hover{
+    cursor: pointer;
+
+}
